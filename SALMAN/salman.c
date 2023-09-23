@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-long long int soma = 0; //soma op1
+unsigned long long int soma = 0; //soma op1
 long long int min = 0;  //valor minimo da op2
 
 typedef struct Item{
@@ -11,7 +11,7 @@ typedef struct Item{
     struct Item *prox;
 } Item;
 
-Item *insereNo(Item *cabeca, int id, int sal){
+Item *insereNo(Item *cabeca, long long int id, long long int sal){
     Item *new = malloc(sizeof(Item));
     new->prox = cabeca->prox;
     new->id = id;
@@ -20,7 +20,7 @@ Item *insereNo(Item *cabeca, int id, int sal){
     return new;
 }
 
-long long int op1(Item lider, Item *boss, int *vis){ //DFS para achar a soma
+unsigned long long int op1(Item lider, Item *boss, int *vis){ //DFS para achar a soma
     if(vis[lider.id-1]==1) return soma;
     vis[lider.id-1]==1;
     soma = soma + lider.sal;
@@ -51,7 +51,7 @@ int main(){
         scanf("%c", &buffer);
         printf("Case %d:\n", j+1);
         scanf(" %lld %lld", &nodes, &queries);
-        Item *boss = malloc(100001*sizeof(Item));
+        Item *boss = calloc(nodes, sizeof(Item));
         for(int i=0; i<nodes; ++i){
             scanf(" %lld %lld", &p, &s);
             if(p==0){
@@ -64,13 +64,13 @@ int main(){
             }
         }
         for(int k=0; k<queries; ++k){
-            long long int retorno = 0;
-            int *visitados = malloc(sizeof(int)*100001);
+            unsigned long long int retorno = 0;
+            int *visitados = malloc(sizeof(int)*(nodes));
             scanf(" %lld %lld", &op, &id);
             if(op==1){
                 soma = 0;
                 retorno = op1(boss[id-1], boss, visitados);
-                printf("%lld\n", retorno);
+                printf("%llu\n", retorno);
             }
             else {
                 min = boss[id-1].sal;
