@@ -15,6 +15,7 @@
 Exercícios do Sphere Online Judge:
 
 - [LABYR1 - Labyrinth](https://www.spoj.com/problems/LABYR1/)
+- [SALMAN - Salary Management](https://www.spoj.com/problems/SALMAN/) (TLE, mas funciona corretamente)
 
 Exercícios do LeetCode:
 
