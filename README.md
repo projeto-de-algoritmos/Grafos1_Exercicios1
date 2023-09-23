@@ -20,10 +20,19 @@ Exercícios do Sphere Online Judge:
 Exercícios do LeetCode:
 
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/description/)
+- [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)
 
 ## Screenshots
 
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+Segue a seguir as imagens dos algoritmos enviados no juiz. É possível observar os status de conclusão do problema e o algoritmo enviado.
+
+### Number of Islands
+
+![Imagem do problema 200 do LeetCode](assets/200.png)
+
+### Minimum Genetic Mutation
+
+![Imagem do problema 433 do LeetCode](assets/433.png)
 
 ## Instalação
 
