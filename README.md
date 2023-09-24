@@ -1,6 +1,6 @@
 # Exercicios1
 
-**Número da Lista**: X<br>
+**Número da Lista**: 1<br>
 **Conteúdo da Disciplina**: BFS, DFS<br>
 
 ## Alunos
@@ -58,7 +58,3 @@ Para rodar os arquivos em C, é recomendado utilizar o WSL caso esteja no Window
 Para os exercícios em C, compile o código utilizando `gcc -o prog arquivo.c` e execute-o utilizando `./prog`, por fim, digite o input no terminal. Também pode ser utilizado o comando `./prog < entrada.txt` caso exista algum caso de teste válido no arquivo de texto. Os links para os problemas resolvidos estão na seção "Sobre".
 
 Para os exercícios em Python, basta digitar `python nome-do-arquivo.py` no terminal de preferência.
-
-## Outros
-
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
