@@ -41,7 +41,7 @@ Segue a seguir as imagens dos algoritmos enviados no juiz. É possível observar
 
 ### SALMAN - Salary Management
 
-![Imagem do LABYR1](assets/SALMAN.png)
+![Imagem do SALMAN](assets/SALMAN.png)
 
 ### PT07Z - Longest path in a tree
 
@@ -51,11 +51,13 @@ Segue a seguir as imagens dos algoritmos enviados no juiz. É possível observar
 
 **Linguagem**: C, Python<br>
 
-Para rodar os arquivos em C, é recomendado utilizar o WSL caso esteja no Windows. Nele, execute os comandos `sudo apt update` e `sudo apt install gcc` para instalar o gcc.
+Para rodar os arquivos em C, é recomendado utilizar o WSL caso esteja no Windows. Nele, execute os comandos `sudo apt update` e `sudo apt install gcc` para instalar o gcc. Já para rodar os arquivos em Python, pode ser utilizado o interpretador online [GDB](https://www.onlinegdb.com/) ou instalar o Python na sua máquina (as instruções para instalação podem ser encontradas no [guia de instalação](https://wiki.python.org/moin/BeginnersGuide/Download)).
 
 ## Uso
 
 Para os exercícios em C, compile o código utilizando `gcc -o prog arquivo.c` e execute-o utilizando `./prog`, por fim, digite o input no terminal. Também pode ser utilizado o comando `./prog < entrada.txt` caso exista algum caso de teste válido no arquivo de texto. Os links para os problemas resolvidos estão na seção "Sobre".
+
+Para os exercícios em Python, basta digitar `python nome-do-arquivo.py` no terminal de preferência.
 
 ## Outros
 
