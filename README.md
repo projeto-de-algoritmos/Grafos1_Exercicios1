@@ -51,11 +51,11 @@ Segue a seguir as imagens dos algoritmos enviados no juiz. É possível observar
 
 **Linguagem**: C, Python<br>
 
-Para rodar os arquivos em C, é recomendado utilizar o WSL no Windows. Nele, execute o comando `sudo apt update` e `sudo apt install gcc`.
+Para rodar os arquivos em C, é recomendado utilizar o WSL caso esteja no Windows. Nele, execute os comandos `sudo apt update` e `sudo apt install gcc` para instalar o gcc.
 
 ## Uso
 
-Para os exercícios em C, compile o código utilizando `gcc -o prog arquivo.c` e execute utilizando `./prog` e digite o input no terminal, ou `./prog < entrada.txt` caso exista algum caso de teste contido no txt. Os links para os problemas estão na seção "Sobre".
+Para os exercícios em C, compile o código utilizando `gcc -o prog arquivo.c` e execute-o utilizando `./prog`, por fim, digite o input no terminal. Também pode ser utilizado o comando `./prog < entrada.txt` caso exista algum caso de teste válido no arquivo de texto. Os links para os problemas resolvidos estão na seção "Sobre".
 
 ## Outros
 
