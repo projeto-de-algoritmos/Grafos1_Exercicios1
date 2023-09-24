@@ -16,6 +16,7 @@ Exercícios do Sphere Online Judge:
 
 - [LABYR1 - Labyrinth](https://www.spoj.com/problems/LABYR1/)
 - [SALMAN - Salary Management](https://www.spoj.com/problems/SALMAN/) (TLE, mas funciona corretamente)
+- [Longest Path in a Tree](https://www.spoj.com/problems/PT07Z/)
 
 Exercícios do LeetCode:
 
@@ -34,15 +35,27 @@ Segue a seguir as imagens dos algoritmos enviados no juiz. É possível observar
 
 ![Imagem do problema 433 do LeetCode](assets/433.png)
 
+### LABYR1 - Labyrinth
+
+![Imagem do LABYR1](assets/LABYR1.png)
+
+### SALMAN - Salary Management
+
+![Imagem do LABYR1](assets/SALMAN.png)
+
+### PT07Z - Longest path in a tree
+
+![Imagem do PT07Z](assets/PT07Z.png)
+
 ## Instalação
 
 **Linguagem**: C, Python<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+
+Para rodar os arquivos em C, é recomendado utilizar o WSL no Windows. Nele, execute o comando `sudo apt update` e `sudo apt install gcc`.
 
 ## Uso
 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para os exercícios em C, compile o código utilizando `gcc -o prog arquivo.c` e execute utilizando `./prog` e digite o input no terminal, ou `./prog < entrada.txt` caso exista algum caso de teste contido no txt. Os links para os problemas estão na seção "Sobre".
 
 ## Outros
 
