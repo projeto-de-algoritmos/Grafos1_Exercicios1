@@ -58,3 +58,7 @@ Para rodar os arquivos em C, é recomendado utilizar o WSL caso esteja no Window
 Para os exercícios em C, compile o código utilizando `gcc -o prog arquivo.c` e execute-o utilizando `./prog`, por fim, digite o input no terminal. Também pode ser utilizado o comando `./prog < entrada.txt` caso exista algum caso de teste válido no arquivo de texto. Os links para os problemas resolvidos estão na seção "Sobre".
 
 Para os exercícios em Python, basta digitar `python nome-do-arquivo.py` no terminal de preferência.
+
+## Vídeo
+
+Para acessar o vídeo explicativo sobre os exercícios, [clique aqui](https://www.youtube.com/embed/QtV_EL3F_YE)
